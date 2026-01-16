@@ -1,0 +1,36 @@
+# Generated zone files
+output/*.xlsx
+
+# Generated rate sheets
+*.xlsx
+
+# Excel temp files
+~$*.xlsx
+
+# Input PDFs
+inputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+nul
