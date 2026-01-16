@@ -81,19 +81,6 @@ python generate_rate_sheet.py \
 4. Appends all zone data to the rate sheet template's `Zones` tab
 5. Saves the output file
 
-**Example:**
-
-```bash
-python generate_rate_sheet.py \
-  --input arista_us_ssls.xlsx \
-  --rate-sheet "United States International Rates 2025(1)_converted.xlsx" \
-  --country-name "United States" \
-  --country-symbol "UNITED_STATES" \
-  --client-name "Arista" \
-  --carrier "FedEx" \
-  --carrier-account "758360300"
-```
-
 ## Directory Structure
 
 ```
