@@ -1,21 +1,25 @@
-# Generated zone files
-output/*.xlsx
-
-# Generated rate sheets
+# All Excel files (templates and generated)
 *.xlsx
 
-# Excel temp files
-~$*.xlsx
+# All PDF files (large, can be re-downloaded)
+*.pdf
 
-# Input PDFs
+# Output directory
+outputs/
+
+# Input directory
 inputs/
+
+# Archive of old scripts (kept for reference, not tracked)
+archive/
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
 .Python
+*.egg-info/
+.eggs/
 venv/
 .venv/
 env/
@@ -27,10 +31,14 @@ env/
 *.swp
 *.swo
 
-# Claude
-.claude/
-
 # OS
 .DS_Store
 Thumbs.db
 nul
+
+# Claude
+.claude/
+
+# Temporary files
+*.tmp
+*.log
